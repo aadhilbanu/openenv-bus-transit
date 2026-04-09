@@ -1,15 +1,4 @@
-name: OpenEnv-BusTransit
+name: openenv-bus-transit
 version: 1.0
 
-observation_space:
-  type: EnvState
-
-action_space:
-  type: Action
-
-tasks:
-  - easy
-  - medium
-  - hard
-
-reward_range: [0.0, 1.0]
+entrypoint: inference.py
